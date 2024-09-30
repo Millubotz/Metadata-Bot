@@ -22,7 +22,7 @@ class Config(object):
 
     # other configs
     BOT_UPTIME = time.time()
-    START_PIC = os.environ.get("START_PIC", "")
+    START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/bKmzQCK/image.jpg")
     ADMIN = [int(admin) if id_pattern.search(
         admin) else admin for admin in os.environ.get('ADMIN', '5324831370').split()]  # ⚠️ Required
     
@@ -48,7 +48,7 @@ Tʜɪs Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛs Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ
 
     ABOUT_TXT = """<b>╭───────────⍟
 • ᴍy ɴᴀᴍᴇ : {}
-• ᴜᴘᴅᴀᴛᴇꜱ : <a href=https://t.me/KPSBots>ᴋᴘꜱ ʙᴏᴛꜱ</a>
+• ᴜᴘᴅᴀᴛᴇꜱ : <a href=https://t.me/moviesandwebserieshubOrzz>~𝑴𝑨𝑾𝑯 𝑶𝒓𝒛𝒛⁠• ʙᴏᴛꜱ</a>
 ╰───────────────⍟ """
 
     HELP_TXT = """
@@ -77,7 +77,7 @@ Exᴀᴍᴩʟᴇ: <code> /set_caption 📕 Fɪʟᴇ Nᴀᴍᴇ: {filename}
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:
 
-◦ <code>Telegram : @KPSBots</code>
+◦ <code>Telegram : @DesiN3rd</code>
 """
 
     PROGRESS_BAR = """<b>\n
