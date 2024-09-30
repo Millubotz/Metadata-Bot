@@ -24,7 +24,7 @@ class Config(object):
     BOT_UPTIME = time.time()
     START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/bKmzQCK/image.jpg")
     ADMIN = [int(admin) if id_pattern.search(
-        admin) else admin for admin in os.environ.get('ADMIN', '5324831370').split()]  # ⚠️ Required
+        admin) else admin for admin in os.environ.get('ADMIN', '5324831370 6646028262').split()]  # ⚠️ Required
     
     FORCE_SUB = os.environ.get("FORCE_SUB", "moviesandwebserieshubOrzz") # ⚠️ Required Username without @
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002229216652"))  # ⚠️ Required
